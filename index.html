@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Colombia Tours</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="contenedor">
+		<div id="cabecera">
+			<img src="C:\Users\Los Uribes\Desktop\proyecto aula\imagenes\logo colombia travel.jpg"/>
+			<link rel="stylesheet" type="text/css" href="stylesheetindex.css">
+		</div>
+		<div id="contenido">
+
+			<p>Colombia Travel te da la facilidad de escoger el plan de vacaciones para ti y tu familia solo llenando la informacion 
+			contenida a continuacion, Colombia Tours con esta informacion reunira los mejores lugares de nuestra tierra, la mejor gastronomia del planeta y lo 
+			mejor con unos precios de Maravilla </p>
+			
+			<form id ="formulario" action="colombiatravel.html" target="blanck" method="post">
+
+			<fieldset>
+					
+					<h2>Informacion Requerida.</h2>
+					<div id="Informacion">
+						<label for="nombre">Nombre</label>
+						<input  type="text" placeholder="ingresa tu nombre" name="nombre" id="nombre" /><br>
+						<label for="correo">Correo</label>
+						<input  type="email" placeholder="ingresa tu correo" name="correo" id="correo"><br>
+						<label for="edad">Edad</label>
+						<input  type="text" placeholder="ingresa tu edad" name="edad" id="edad"><br>
+						<label for="genero">Genero</label>
+						<select id="genero" name="genero">
+							<option value="Masculino">Masculino</option>
+							<option value="Femenino">Femenino</option>
+						</select><br><br>
+					</div>
+        			
+           			
+					<div id="radiobuttons">
+						<label><strong>Con quien deseas Viajar.</strong></label><br><br>
+						<input type="radio"  id="viaje" name="viaje" value="Solo" checked/>Solo
+						<input type="radio" id="viaje" name ="viaje" value="Pareja"/ >Pareja
+						<input type="radio" id="viaje" name = "viaje" value="Familiar"/ >Familiar<br><br>
+					</div>
+
+					<div id="checkbox">
+						<label for="tipoviaje"><strong>Que tipo de Viaje Prefieres.</strong></label><br><br>
+						<input type="checkbox"  id="tipoviaje" name ="tipoviaje" value="Relajacion"/ >Relajacion
+						<input type="checkbox" id="tipoviaje" name ="tipoviaje" value="Extremo" />Extremo
+						<input type="checkbox" id="tipoviaje" name = "tipoviaje" value="Aventura"/ >Aventura
+						<input type="checkbox" id="tipoviaje" name = "tipoviaje" value="Empresarial"/ >Empresarial<br><br>
+					</div>
+					
+					<label for="precios"><strong>Con Cuanto dinero Contamos.</strong></label><br>
+					<input type="text" id="precios" name="precios"/><br><br>
+					<input type="submit" id="precios" name="enviar"/>
+			</fieldset>
+    			
+			</form>
+	</div>	
+
+</body>
+</html>
