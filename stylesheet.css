@@ -4,13 +4,15 @@
 	margin-right: auto;
 	background-color: #CD3030;
 }
-#muestra  img{
+#muestras  img {
 	width: 1061px;
 	height: 350px;
 }
+
 #cabecera{
 	height: 145px;
 }
+
 #planes div{
 	margin: 5px;
 	margin-top: 0px;
