@@ -2,6 +2,8 @@
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #2FA5B7;
+
 }
 #muestra  img{
 	width: 1061px;
@@ -10,13 +12,13 @@
 #cabecera{
 	height: 145px;
 }
-#planes div{
+#planAventura div {
 	margin: 5px;
 	margin-top: 0px;
 	display: inline-block;
 }
 
-#planes div img{
+#planAventura div img{
 	width: 515px;
 	height: 280px;
 	border-radius: 10px;
@@ -27,4 +29,7 @@
 	color: black;
 	margin-top: 0px;
 	margin: 10px;
+}
+body {
+	background-color: #808080;
 }
