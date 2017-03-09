@@ -3,6 +3,23 @@
 <head>
 	<title>Colombia Tours</title>
 	<meta charset="utf-8">
+	<script>
+	function seleccionarCheck(ev, obj) {
+	var HaHechoClick = event.srcElement;
+	if(HaHechoClick.value=="Relajacion"){
+	document.formulario.action = "planRelajacion.html";
+	}
+	if(HaHechoClick.value=="Extremo"){
+	document.formulario.action = "planextremo.html";
+	}
+	if(HaHechoClick.value=="Aventura"){
+	document.formulario.action = "planAventura.html";
+	}
+	
+    document.formulario.submit();
+	
+	}
+	</script>
 </head>
 <body>
 	<div id="contenedor">
@@ -16,7 +33,6 @@
 			contenida a continuacion, Colombia Tours con esta informacion reunira los mejores lugares de nuestra tierra, la mejor gastronomia del planeta y lo 
 			mejor con unos precios de Maravilla </p>
 			
-			<form id ="formulario" action="planextremo.html" method="post">
 			<form id ="formulario" name="formulario">
 
 			<fieldset>
